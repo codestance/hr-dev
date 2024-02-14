@@ -15,8 +15,8 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "Holidays dev",
-    "full": "Holiday request dev"
+    "short": "Holidays github test",
+    "full": "Holiday github test"
   },
   "description": {
     "short": "Holiday request application dev",
@@ -43,7 +43,10 @@
     }
   ],
   "permissions": ["identity", "messageTeamMembers"],
-  "validDomains": ["https://codestance.github.io/hr-dev/"],
+  "validDomains": [
+    "https://codestance.github.io/hr-dev/",
+    "https://login.microsoftonline.com/"
+  ],
   "webApplicationInfo": {
     "id": "de9b6e29-ce8d-4aad-bde1-baeb58a0d09c",
     "resource": "https://login.microsoftonline.com/1c959d66-59b2-4a6b-b984-2775de3c74f9/oauth2/v2.0/authorize"
