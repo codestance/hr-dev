@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.15",
+  "version": "1.0.0",
+  "id": "de9b6e29-ce8d-4aad-bde1-baeb58a0d09c",
+  "packageName": "holidayDev.teams.extension",
+  "developer": {
+    "name": "Proaxia Polska",
+    "websiteUrl": "https://codestance.github.io/hr-dev/",
+    "privacyUrl": "https://codestance.github.io/hr-dev/",
+    "termsOfUseUrl": "https://codestance.github.io/hr-dev/"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Holidays github test",
+    "full": "Holiday github test"
+  },
+  "description": {
+    "short": "Holiday request application dev",
+    "full": "Holiday request application dev"
+  },
+  "accentColor": "#e67100",
+  "bots": [],
+  "composeExtensions": [],
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "index",
+      "name": "New request",
+      "contentUrl": "https://codestance.github.io/hr-dev/",
+      "websiteUrl": "https://codestance.github.io/hr-dev/",
+      "scopes": ["personal"]
+    },
+    {
+      "entityId": "history",
+      "name": "List",
+      "contentUrl": "https://codestance.github.io/hr-dev/#/history",
+      "websiteUrl": "https://codestance.github.io/hr-dev/#/history",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": [
+    "https://codestance.github.io/hr-dev/",
+    "https://login.microsoftonline.com/"
+  ],
+  "webApplicationInfo": {
+    "id": "de9b6e29-ce8d-4aad-bde1-baeb58a0d09c",
+    "resource": "https://login.microsoftonline.com/1c959d66-59b2-4a6b-b984-2775de3c74f9/oauth2/v2.0/authorize"
+  }
+}
