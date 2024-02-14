@@ -6,9 +6,9 @@
   "packageName": "holidayDev.teams.extension",
   "developer": {
     "name": "Proaxia Polska",
-    "websiteUrl": "https://127.0.0.1:5500/",
-    "privacyUrl": "https://127.0.0.1:5500/",
-    "termsOfUseUrl": "https://127.0.0.1:5500/"
+    "websiteUrl": "https://codestance.github.io/hr-dev/",
+    "privacyUrl": "https://codestance.github.io/hr-dev/",
+    "termsOfUseUrl": "https://codestance.github.io/hr-dev/"
   },
   "icons": {
     "color": "color.png",
@@ -30,20 +30,20 @@
     {
       "entityId": "index",
       "name": "New request",
-      "contentUrl": "https://127.0.0.1:5500/dist",
-      "websiteUrl": "https://127.0.0.1:5500/dist",
+      "contentUrl": "https://codestance.github.io/hr-dev/",
+      "websiteUrl": "https://codestance.github.io/hr-dev/",
       "scopes": ["personal"]
     },
     {
       "entityId": "history",
       "name": "List",
-      "contentUrl": "https://127.0.0.1:5500/dist/#/history",
-      "websiteUrl": "https://127.0.0.1:5500/dist/#/history",
+      "contentUrl": "https://codestance.github.io/hr-dev/#/history",
+      "websiteUrl": "https://codestance.github.io/hr-dev/#/history",
       "scopes": ["personal"]
     }
   ],
   "permissions": ["identity", "messageTeamMembers"],
-  "validDomains": ["127.0.0.1:5500/"],
+  "validDomains": ["https://codestance.github.io/hr-dev/"],
   "webApplicationInfo": {
     "id": "de9b6e29-ce8d-4aad-bde1-baeb58a0d09c",
     "resource": "https://login.microsoftonline.com/1c959d66-59b2-4a6b-b984-2775de3c74f9/oauth2/v2.0/authorize"
