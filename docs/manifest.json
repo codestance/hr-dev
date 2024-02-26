@@ -3,7 +3,7 @@
   "manifestVersion": "1.15",
   "version": "1.0.0",
   "id": "de9b6e29-ce8d-4aad-bde1-baeb58a0d09c",
-  "packageName": "holidayDev.teams.extension",
+  "packageName": "holidayDev.teams.extension2",
   "developer": {
     "name": "Proaxia Polska",
     "websiteUrl": "https://codestance.github.io/hr-dev/",
@@ -19,8 +19,8 @@
     "full": "Holiday github test"
   },
   "description": {
-    "short": "Holiday request application dev",
-    "full": "Holiday request application dev"
+    "short": "Holiday dev2",
+    "full": "Holiday request application dev2"
   },
   "accentColor": "#e67100",
   "bots": [],
